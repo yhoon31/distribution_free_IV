@@ -1,1 +1,5 @@
-# distribution_free_IV
+# Distribution-free predictive inference with instrumental variables
+
+The codes in this repository reproduce the experimental results from _Distribution-free predictive inference with instrumental variables_ (https://arxiv.org/abs/2610.35605).
+
+The simulation folder contains the R code files for reproducing the simulations results.
