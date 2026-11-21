@@ -1,0 +1,44 @@
+\begin{table}[!htbp]
+\centering\small
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{llrrrr}
+\toprule
+Dataset & Method & Coverage & Mean width & Median width & $p_{\rm inf}$ (\%) \\
+\midrule
+FES & IV
+& \cellcolor{green!20}0.928 (0.004)
+& $\infty$ (--)
+& 1.59 (0.044)
+& 14.0 \\
+ & $X$-WCP
+& \cellcolor{green!20}0.902 (0.001)
+& 1.40 (0.005)
+& 1.39 (0.006)
+& 0.0 \\
+ & $(X,Z)$-WCP
+& \cellcolor{green!20}0.902 (0.001)
+& 1.40 (0.004)
+& 1.40 (0.004)
+& 0.0 \\
+\addlinespace
+{NHANES III} & {IV}
+& \cellcolor{green!20}{0.931 (0.004)}
+& {$\infty$ (--)}
+& {10.41 (0.416)}
+& {16.0} \\
+ & {$X$-WCP}
+& \cellcolor{green!20}{0.904 (0.001)}
+& {9.09 (0.021)}
+& {9.12 (0.068)}
+& {0.0} \\
+ & {$(X,Z)$-WCP}
+& \cellcolor{green!20}{0.905 (0.001)}
+& {9.07 (0.023)}
+& {9.04 (0.017)}
+& {0.0} \\
+\addlinespace
+\bottomrule
+\end{tabular}
+\caption{Semi-synthetic experiments with the FES and NHANES datasets: coverage rate, mean and median prediction interval widths, and the percentage of intervals with infinite width ($p_{\text{inf}}$) for Procedure~\ref{alg:policy} (IV), $X$-WCP, and $(X,Z)$-WCP, with standard errors, at level $\alpha=0.1$, under the MAR setting.}
+\label{tab:empirical-mar}
+\end{table}

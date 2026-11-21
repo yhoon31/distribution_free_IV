@@ -1,0 +1,26 @@
+{
+  "empirical_masking.tex": {
+    "source": "JRSSB/jrssb.tex",
+    "label": "tab:empirical-masking",
+    "source_sha256": "49d45e0f48a0b0165ef566df87a96a1d10e7e400768f68232fc07f72a294056f",
+    "template_sha256": "614ed71c946800196e23dcf8165a7b0ce0fa533543ce65b0d901e0ff5e86164c"
+  },
+  "empirical_application.tex": {
+    "source": "JRSSB/jrssb.tex",
+    "label": "tab:empirical-application",
+    "source_sha256": "49d45e0f48a0b0165ef566df87a96a1d10e7e400768f68232fc07f72a294056f",
+    "template_sha256": "5d0c114200b1eb54108b36020409717ad71198a615bf3aaaca96d8d52a27b5cd"
+  },
+  "empirical_mar.tex": {
+    "source": "JRSSB/supplements.tex",
+    "label": "tab:empirical-mar",
+    "source_sha256": "30e57cdfae33f0ec4c69cc042cc33df4c6e1ae08841bfc766453de1855b38377",
+    "template_sha256": "eed538b79f00411425199e49c1205144a4a7b81bd679fe43fadd58d312056709"
+  },
+  "empirical_application_comparisons.tex": {
+    "source": "JRSSB/supplements.tex",
+    "label": "tab:empirical-application-comparisons",
+    "source_sha256": "30e57cdfae33f0ec4c69cc042cc33df4c6e1ae08841bfc766453de1855b38377",
+    "template_sha256": "8dff0b7726fae66d8e35979c85c1fe1a2d780ec412b072384bd7c66c14d1e78b"
+  }
+}

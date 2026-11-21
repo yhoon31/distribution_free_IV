@@ -1,0 +1,31 @@
+\begin{table}
+\centering\footnotesize
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrrrr}
+\toprule
+& \multicolumn{2}{c}{FES} & \multicolumn{2}{c}{NHANES III}\\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}
+Method & Coverage & Mean width & Coverage & Mean width \\
+\midrule
+IV
+& \cellcolor{green!20}0.903 (0.003)
+& 1.42 (0.014)
+& \cellcolor{red!20}{0.870 (0.002)}
+& 8.39 (0.037) \\
+
+$X$-WCP
+& \cellcolor{red!20}0.868 (0.002)
+& 1.22 (0.006)
+& \cellcolor{red!20}{0.847 (0.002)}
+& 7.89 (0.025) \\
+
+$(X,Z)$-WCP
+& \cellcolor{red!20}0.849 (0.002)
+& 1.15 (0.006)
+& \cellcolor{red!20}{0.842 (0.002)}
+& 7.80 (0.034) \\
+\bottomrule
+\end{tabular}
+\caption{\footnotesize Semi-synthetic experiments with FES and NHANES III: coverage rate and mean prediction interval width of Procedure~\eqref{eqn:pred_set_policy} (IV), $X$-WCP, and $(X,Z)$-WCP, with Monte Carlo standard errors, at level $\alpha=0.1$ and parameter $g=1$ in Setting 1. Widths are in log hourly wages for FES and reported height in inches for NHANES III.}
+\label{tab:empirical-masking}
+\end{table}

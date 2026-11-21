@@ -1,0 +1,19 @@
+\begin{table}[!htbp]
+\centering\small
+
+\setlength{\tabcolsep}{5pt}
+\begin{tabular}{lrrrrrr}
+\toprule
+& \multicolumn{3}{c}{FES} & \multicolumn{3}{c}{NHANES III} \\
+\cmidrule(lr){2-4}\cmidrule(lr){5-7}
+Method & Mean & Median & $p_{\rm inf}$ & Mean & Median & $p_{\rm inf}$ \\
+\midrule
+$X$-WCP & 1.33 & 1.33 & 0.0 & 8.11 & 8.11 & 0.0 \\
+$(X,Z)$-WCP & 1.24 & 1.24 & 0.0 & 8.14 & 8.14 & 0.0 \\
+Best case & 1.11 & 1.11 & 0.0 & 8.09 & 8.09 & 0.0 \\
+Worst case & $\infty$ & $\infty$ & 100.0 & 9.85 & 9.85 & 0.0 \\
+\bottomrule
+\end{tabular}
+\caption{Comparison methods for the full empirical experiment at level $1-\alpha=0.9$: mean and median interval widths and the percentage of infinite intervals ($p_{\rm inf}$) for $X$-WCP and $(X,Z)$-WCP, together with the best- and worst-case completion baselines.}
+\label{tab:empirical-application-comparisons}
+\end{table}

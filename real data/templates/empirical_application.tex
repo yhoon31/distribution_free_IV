@@ -1,0 +1,16 @@
+\begin{table}[!htbp]
+\centering\footnotesize
+\setlength{\tabcolsep}{5pt}
+\begin{tabular}{lrrrr}
+\toprule\footnotesize
+& \multicolumn{2}{c}{Observed outcome span} & \multicolumn{2}{c}{IV method} \\
+\cmidrule(lr){2-3} \cmidrule(lr){4-5}
+Dataset & Central 90\% & Central 95\% & Interval width & $p_{\rm inf}$ (\%) \\
+\midrule
+FES & 1.49 & 1.85 & 2.11 & 0.0 \\
+NHANES III & 13.00 & 14.00 & 7.61 & 0.0 \\
+\bottomrule
+\end{tabular}
+\caption{\footnotesize Full empirical experiment at level $1-\alpha=0.9$: empirical central 90\% and 95\% ranges among respondents and prediction interval widths from Procedure~\eqref{eqn:pred_set_policy}, with $p_{\rm inf}$ denoting the percentage of infinite intervals.}
+\label{tab:empirical-application}
+\end{table}

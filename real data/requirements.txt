@@ -1,0 +1,10 @@
+numpy==1.26.4
+scipy==1.14.1
+pandas==2.2.3
+scikit-learn==1.8.0
+matplotlib==3.8.4
+requests>=2.31
+# Only for converting the original older Stata archive:
+pyreadstat>=1.2
+# Only for local PDF inspection (not inference):
+PyMuPDF>=1.24
